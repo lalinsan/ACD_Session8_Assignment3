@@ -9,7 +9,9 @@
 <body>
 	<font color="red"> ${requestScope.error}</font> <!-- Display a message when User Name or Password are incorrect -->
 	<form action="SessionTracking" method="POST">
+	User Name : 
 	<input type="text" name="userName"/> <!-- Prompts user to enter User Name -->
+	Password :
 	<input type="password" name="password"/> <!-- Prompts user to enter Password -->
 	<input type="Submit"/> <!-- Send form and calls Servlet -->
 	</form>
